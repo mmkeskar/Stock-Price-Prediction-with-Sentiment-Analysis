@@ -8,7 +8,6 @@ There seems to be a [correlation](https://github.com/mmkeskar/Stock-Analysis-wit
 
 
 ### Methods Used
-* Data Collection and Preprocessing
 * Machine Learning
 * Data Visualization
 * Predictive Modeling
@@ -20,17 +19,22 @@ There seems to be a [correlation](https://github.com/mmkeskar/Stock-Analysis-wit
 * Pandas, jupyter, NumPy, TensorFlow, SpaCy, sklearn
 
 ## Project Description
+In our [previous project](https://github.com/mmkeskar/Stock-Analysis-with-NLP), we showed that the difference in the ARMIA predictions and the actual stock prices for the FAANG comapanies like Facebook, Apple, Amazon, Netflix, Google, and Tesla (out of personal interest) can be explained by the daily market sentiment. 
 
+In this project, we used two different sets of data, twitter comments and reddit comments, to calculate two separate market sentiments on each of the datasets. We also used the  LSTM model instead of ARMIA to make our stock price predictions. The model trained on the twitter data was retrained on reddit data to achieve about 75% accuracy on the reddit comments. This model was used to predict the sentiment for each comment collected for a particular day. Then a variety of metrics are used to calculate the market sentiment based on all the predicted sentiments for that day. Then, we used a Linear Regression (OLS Regression) to predict the stock price based on this calculated daily sentiment and the LSTM predictions. 
+
+These results are then visualized.
+This verifies that the missing information or the gap in the LSTM predictions and the actual stock prices can be explained by the daily sentiment captured for that day. We also compare the effect of changing the dataset for the sentiments, twitter and reddit. We also analyse which of the two: twitter and reddit, perform better on to make stcok price predictions.
 
 
 ## Needs of this project
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
+- Data Collection 
+- Data Cleaning and Preprocessing
+- Machine Learning
+- Data Visualization
 - writeup/reporting
-- etc. (be as specific as possible)
+
 
 ## Getting Started
 
@@ -54,16 +58,12 @@ There seems to be a [correlation](https://github.com/mmkeskar/Stock-Analysis-wit
 
 ## Contributing DSWG Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
+**Team Lead (Contacts) : [Maitrayee Keskar](https://github.com/mmkeskar)(@slackHandle)**
 
 #### Other Members:
 
 |Name     |  Slack Handle   | 
 |---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+|[Xuewei Yan](https://github.com/[github handle])| @johnDoe        |
+|[Rishabh Viswanathan](https://github.com/[github handle]) |     @janeDoe    |
+|[Kevin Jay](https://github.com/[github handle]) |     @janeDoe    |
