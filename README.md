@@ -62,8 +62,8 @@ This verifies that the missing information or the gap in the LSTM predictions an
 
 #### Other Members:
 
-|Name     |  Slack Handle   | 
+|Name     |  LinkedIn   | 
 |---------|-----------------|
-|[Xuewei Yan](https://github.com/[github handle])| @johnDoe        |
-|[Rishabh Viswanathan](https://github.com/[github handle]) |     @janeDoe    |
-|[Kevin Jay](https://github.com/[github handle]) |     @janeDoe    |
+|[Xuewei Yan](https://github.com/[github handle])|    https://www.linkedin.com/in/xavier-xuewei-yan/     |
+|[Rishabh Viswanathan](https://github.com/[github handle]) |     https://www.linkedin.com/in/rishabh-viswanathan-3b8490192/    |
+|[Kevin Jay](https://github.com/[github handle]) |    https://www.linkedin.com/in/kevinjay760/    |
