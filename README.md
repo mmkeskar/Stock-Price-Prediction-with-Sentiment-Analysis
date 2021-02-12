@@ -58,12 +58,12 @@ This verifies that the missing information or the gap in the LSTM predictions an
 
 ## Contributing DSWG Members
 
-**Team Lead (Contacts) : [Maitrayee Keskar](https://github.com/mmkeskar)(@slackHandle)**
+**Team Lead (Contacts) : [Maitrayee Keskar](https://github.com/mmkeskar) [LinkedIn](https://www.linkedin.com/in/maitrayee-keskar-0a426a19a/)
 
 #### Other Members:
 
 |Name     |  LinkedIn   | 
 |---------|-----------------|
-|[Xuewei Yan](https://github.com/[github handle])|    https://www.linkedin.com/in/xavier-xuewei-yan/     |
+|[Xuewei Yan](https://github.com/XueweiYan)|    https://www.linkedin.com/in/xavier-xuewei-yan/     |
 |[Rishabh Viswanathan](https://github.com/[github handle]) |     https://www.linkedin.com/in/rishabh-viswanathan-3b8490192/    |
 |[Kevin Jay](https://github.com/[github handle]) |    https://www.linkedin.com/in/kevinjay760/    |
